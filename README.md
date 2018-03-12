@@ -1,132 +1,132 @@
 # ThingPlug 2.0 Device Middleware
 
-## ThingPlug 2.0À» À§ÇÑ Device ¹Ìµé¿ş¾î ¼³Ä¡ ¹× ½ÇÇà°¡ÀÌµå
-º» Ã©ÅÍ´Â SKT ThingPlug Device ¹Ìµé¿ş¾î ¼³Ä¡ ¹× ½ÇÇà ¹æ¹ıÀ» ¼­¼úÇÑ´Ù.
+## ThingPlug 2.0ì„ ìœ„í•œ Device ë¯¸ë“¤ì›¨ì–´ ì„¤ì¹˜ ë° ì‹¤í–‰ê°€ì´ë“œ
+ë³¸ ì±•í„°ëŠ” SKT ThingPlug Device ë¯¸ë“¤ì›¨ì–´ ì„¤ì¹˜ ë° ì‹¤í–‰ ë°©ë²•ì„ ì„œìˆ í•œë‹¤.
 
-#### 1. ThingPlug Device ¹Ìµé¿ş¾î ¶õ?
-°³¹æÇü »ç¹°ÀÎÅÍ³İ ÇÃ·§Æû ThingPlug 2.0À» À§ÇÑ Device ¹Ìµé¿ş¾î´Â ThingPlug ¿ÍÀÇ ¿¬µ¿À» ½±°Ô ÇØÁÖ°í ´Ù¾çÇÑ Device ¿¡ Àû¿ë °¡´ÉÇÑ, Device °³¹ßÀÚ ¹× ¼­ºñ½º °³¹ßÀÚ¸¦ À§ÇÑ ¼ÒÇÁÆ®¿ş¾îÀÌ´Ù.
+#### 1. ThingPlug Device ë¯¸ë“¤ì›¨ì–´ ë€?
+ê°œë°©í˜• ì‚¬ë¬¼ì¸í„°ë„· í”Œë«í¼ ThingPlug 2.0ì„ ìœ„í•œ Device ë¯¸ë“¤ì›¨ì–´ëŠ” ThingPlug ì™€ì˜ ì—°ë™ì„ ì‰½ê²Œ í•´ì£¼ê³  ë‹¤ì–‘í•œ Device ì— ì ìš© ê°€ëŠ¥í•œ, Device ê°œë°œì ë° ì„œë¹„ìŠ¤ ê°œë°œìë¥¼ ìœ„í•œ ì†Œí”„íŠ¸ì›¨ì–´ì´ë‹¤.
 ![](images/simple_mw_architect.png)
-* ¹Ìµé¿ş¾î´Â ÃÑ 2°³ÀÇ ¸ğµâ°ú 5°³ÀÇ ¿¡ÀÌÀüÆ®·Î ±¸¼ºµÇ¾î ÀÖÀ¸¸ç, °¢°¢ÀÇ ¿¡ÀÌÀüÆ®¸¦ ÅëÇØ »ç¹°°ú ThingPlug °£ ¿¬µ¿À» ¼öÇàÇÑ´Ù.
-* **Management Agent** ´Â ¹Ìµé¿ş¾î ³»ºÎÀÇ ¸ğµç ¸í·É ¹× Ã³¸®ÀÇ Áß½É¿¡¼­ ½ÇÁ¦ÀûÀÎ ¿ªÇÒÀ» ¼öÇàÇÑ´Ù. User ¿ÍÀÇ ¿ÜºÎ Interface ´Â Gateway Portal, ThingPlug ¿Í´Â Connection Ready Agent ¿Í ¿¬µ¿ÇÏ¸ç, ³»ºÎ Device/Sensor ¿Í´Â Service Ready Agent ¸¦ ÅëÇØ ¿¬µ¿ÇÑ´Ù.
-* **Connection Ready Agent** ´Â Simple Protocol À» Áö¿øÇÏ¸ç, ThingPlug ¼­¹ö¿Í Åë½ÅÀ» ´ã´çÇÑ´Ù. Åë½ÅÀº MQTT(S) ¹æ½ÄÀ» »ç¿ëÇÑ´Ù.
-* **Service Ready Agent** ´Â Sensor Management Agent ·Î ºÎÅÍ Àü´Ş¹ŞÀº ¼¾¼­ °ü·Ã Á¤º¸µéÀ», ¼¾¼­º° Á¤Ã¥¿¡ µû¶ó¼­ µ¥ÀÌÅÍ¸¦ °¡°øÇÏ´Â ¿ªÇÒÀ» ÇÑ´Ù. °¡°øµÈ ¼¾¼­ Á¤º¸´Â Management Agent ·Î Àü´ŞÇÑ´Ù.
-* **Sensor Management Agent** ´Â ¼¾¼­ µ¥ÀÌÅÍ¸¦ ¼öÁıÇÏ°í, Á÷Á¢ Á¦¾î¸¦ ´ã´çÇÏ¸ç, Management Agent ¿Í µ¥ÀÌÅÍ¸¦ ÁÖ°í ¹Ş´Â´Ù.
-* **Gateway Portal** Àº °ü¸®ÀÚ/°³¹ßÀÚ°¡ ¹Ìµé¿ş¾î ½Ã½ºÅÛÀ» Á¦¾îÇÏ°í, °¢Á¾ Á¤º¸¸¦ Á¶È¸ÇÒ ¼ö ÀÖ´Â »ç¿ëÀÚ ÀÎÅÍÆäÀÌ½ºÀÌ¸ç, Node.js ±â¹İÀÇ ¾îÇÃ¸®ÄÉÀÌ¼ÇÀ¸·Î ±¸ÇöµÇ¾î ÀÖ´Ù.
+* ë¯¸ë“¤ì›¨ì–´ëŠ” ì´ 2ê°œì˜ ëª¨ë“ˆê³¼ 5ê°œì˜ ì—ì´ì „íŠ¸ë¡œ êµ¬ì„±ë˜ì–´ ìˆìœ¼ë©°, ê°ê°ì˜ ì—ì´ì „íŠ¸ë¥¼ í†µí•´ ì‚¬ë¬¼ê³¼ ThingPlug ê°„ ì—°ë™ì„ ìˆ˜í–‰í•œë‹¤.
+* **Management Agent** ëŠ” ë¯¸ë“¤ì›¨ì–´ ë‚´ë¶€ì˜ ëª¨ë“  ëª…ë ¹ ë° ì²˜ë¦¬ì˜ ì¤‘ì‹¬ì—ì„œ ì‹¤ì œì ì¸ ì—­í• ì„ ìˆ˜í–‰í•œë‹¤. User ì™€ì˜ ì™¸ë¶€ Interface ëŠ” Gateway Portal, ThingPlug ì™€ëŠ” Connection Ready Agent ì™€ ì—°ë™í•˜ë©°, ë‚´ë¶€ Device/Sensor ì™€ëŠ” Service Ready Agent ë¥¼ í†µí•´ ì—°ë™í•œë‹¤.
+* **Connection Ready Agent** ëŠ” Simple Protocol ì„ ì§€ì›í•˜ë©°, ThingPlug ì„œë²„ì™€ í†µì‹ ì„ ë‹´ë‹¹í•œë‹¤. í†µì‹ ì€ MQTT(S) ë°©ì‹ì„ ì‚¬ìš©í•œë‹¤.
+* **Service Ready Agent** ëŠ” Sensor Management Agent ë¡œ ë¶€í„° ì „ë‹¬ë°›ì€ ì„¼ì„œ ê´€ë ¨ ì •ë³´ë“¤ì„, ì„¼ì„œë³„ ì •ì±…ì— ë”°ë¼ì„œ ë°ì´í„°ë¥¼ ê°€ê³µí•˜ëŠ” ì—­í• ì„ í•œë‹¤. ê°€ê³µëœ ì„¼ì„œ ì •ë³´ëŠ” Management Agent ë¡œ ì „ë‹¬í•œë‹¤.
+* **Sensor Management Agent** ëŠ” ì„¼ì„œ ë°ì´í„°ë¥¼ ìˆ˜ì§‘í•˜ê³ , ì§ì ‘ ì œì–´ë¥¼ ë‹´ë‹¹í•˜ë©°, Management Agent ì™€ ë°ì´í„°ë¥¼ ì£¼ê³  ë°›ëŠ”ë‹¤.
+* **Gateway Portal** ì€ ê´€ë¦¬ì/ê°œë°œìê°€ ë¯¸ë“¤ì›¨ì–´ ì‹œìŠ¤í…œì„ ì œì–´í•˜ê³ , ê°ì¢… ì •ë³´ë¥¼ ì¡°íšŒí•  ìˆ˜ ìˆëŠ” ì‚¬ìš©ì ì¸í„°í˜ì´ìŠ¤ì´ë©°, Node.js ê¸°ë°˜ì˜ ì–´í”Œë¦¬ì¼€ì´ì…˜ìœ¼ë¡œ êµ¬í˜„ë˜ì–´ ìˆë‹¤.
 
-#### 2. ThingPlug ¿ÍÀÇ ¿¬µ¿ ±¸Á¶
-ThingPlug ¿ÍÀÇ Protocol Àº SimpleAPI¸¦ Áö¿øÇÑ´Ù.
+#### 2. ThingPlug ì™€ì˜ ì—°ë™ êµ¬ì¡°
+ThingPlug ì™€ì˜ Protocol ì€ SimpleAPIë¥¼ ì§€ì›í•œë‹¤.
 ![](images/v1_overview.png)
 
-#### 3. Áö¿ø »ç¾ç ¹× ÇÏµå¿ş¾î
-* ±ÇÀå »ç¾ç
-  * Memory : 128 Mb ÀÌ»ó
-  * CPU : 200MHz ÀÌ»ó
-* Å×½ºÆ® È¯°æ
-  * Raspberry Pi2/3, BeagleBone Black ¿Ü ARM/Linux µğ¹ÙÀÌ½º
+#### 3. ì§€ì› ì‚¬ì–‘ ë° í•˜ë“œì›¨ì–´
+* ê¶Œì¥ ì‚¬ì–‘
+  * Memory : 128 Mb ì´ìƒ
+  * CPU : 200MHz ì´ìƒ
+* í…ŒìŠ¤íŠ¸ í™˜ê²½
+  * Raspberry Pi2/3, BeagleBone Black ì™¸ ARM/Linux ë””ë°”ì´ìŠ¤
 
-#### 4. È¯°æ ¼³Á¤
+#### 4. í™˜ê²½ ì„¤ì •
 
-0. À©µµ¿ì »ç¿ëÀÚÀÇ °æ¿ì ¾Æ·¡ÀÇ URL ¿¡¼­ putty ¸¦ ´Ù¿î¹Ş¾Æ ¼³Ä¡ÇÑ´Ù.
+0. ìœˆë„ìš° ì‚¬ìš©ìì˜ ê²½ìš° ì•„ë˜ì˜ URL ì—ì„œ putty ë¥¼ ë‹¤ìš´ë°›ì•„ ì„¤ì¹˜í•œë‹¤.
 	* http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
-1. ÀÎÅÍ³İ ¿¬°áÀ» À§ÇÏ¿© Ethernet(LAN ÄÉÀÌºí)ÀÌ³ª Wi-Fi USB µ¿±ÛÀ» ÀåÄ¡¿¡ ¿¬°áÇÑ´Ù.
-2. ÅÍ¹Ì³Î(À©µµ¿ì PC¿¡¼­´Â putty)À» ¿­°í °¢ ÀåÄ¡ È¯°æ¿¡ µû¶ó ³×Æ®¿öÅ© È¯°æÀ» ¼³Á¤ÇÑ´Ù.
-3. Ã³À½ ½ÇÇàÇÏ´Â ÀåÄ¡¸¦ ¾÷µ¥ÀÌÆ® ¹× ¾÷±×·¹ÀÌµå ÇÑ´Ù.
+1. ì¸í„°ë„· ì—°ê²°ì„ ìœ„í•˜ì—¬ Ethernet(LAN ì¼€ì´ë¸”)ì´ë‚˜ Wi-Fi USB ë™ê¸€ì„ ì¥ì¹˜ì— ì—°ê²°í•œë‹¤.
+2. í„°ë¯¸ë„(ìœˆë„ìš° PCì—ì„œëŠ” putty)ì„ ì—´ê³  ê° ì¥ì¹˜ í™˜ê²½ì— ë”°ë¼ ë„¤íŠ¸ì›Œí¬ í™˜ê²½ì„ ì„¤ì •í•œë‹¤.
+3. ì²˜ìŒ ì‹¤í–‰í•˜ëŠ” ì¥ì¹˜ë¥¼ ì—…ë°ì´íŠ¸ ë° ì—…ê·¸ë ˆì´ë“œ í•œë‹¤.
 
 	```
 	# apt-get update
 	# apt-get upgrade
 	```
 
-#### 5. ¹Ìµé¿ş¾î¿¡¼­ »ç¿ëÇÏ´Â Library ¾È³»
-¹Ìµé¿ş¾î¿¡¼­ »ç¿ëÇÏ´Â Library µéÀº ´ÙÀ½°ú °°´Ù.
+#### 5. ë¯¸ë“¤ì›¨ì–´ì—ì„œ ì‚¬ìš©í•˜ëŠ” Library ì•ˆë‚´
+ë¯¸ë“¤ì›¨ì–´ì—ì„œ ì‚¬ìš©í•˜ëŠ” Library ë“¤ì€ ë‹¤ìŒê³¼ ê°™ë‹¤.
 <table>
-<thead><tr><th>Part</th><th>Library</th><th>Type</th><th>¿ëµµ</th></tr></thead>
+<thead><tr><th>Part</th><th>Library</th><th>Type</th><th>ìš©ë„</th></tr></thead>
 <tbody>
-<tr><td rowspan="7">Gateway Portal</td><td>express</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>ÇÁ·¹ÀÓ¿öÅ©</td></tr>
-<tr><td>express-session</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>Express ¿¡ Session Ãß°¡</td></tr>
-<tr><td>body-parser</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>Express ¿¡ BodyParser Ãß°¡</td></tr>
-<tr><td>request</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>http request Àü¼Û</td></tr>
-<tr><td>xml2js</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>XML ÆÄ½Ì</td></tr>
-<tr><td>ping</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>Ping Ã¼Å©</td></tr>
-<tr><td>i18n</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>´Ù±¹¾î Áö¿ø</td></tr>
-<tr><td rowspan="4">Management Agent</td><td>libcurl</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>¹Ìµé¿ş¾î ¾÷±×·¹ÀÌµå</td></tr>
-<tr><td>libpaho-mqtt3as</td><td>ÆĞÅ°Áö Æ÷ÇÔ</td><td>MQTT TLS Åë½Å</td></tr>
-<tr><td>libsqlite3</td><td>shared</td><td>µ¥ÀÌÅÍ ÀúÀå</td></tr>
+<tr><td rowspan="7">Gateway Portal</td><td>express</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>í”„ë ˆì„ì›Œí¬</td></tr>
+<tr><td>express-session</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>Express ì— Session ì¶”ê°€</td></tr>
+<tr><td>body-parser</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>Express ì— BodyParser ì¶”ê°€</td></tr>
+<tr><td>request</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>http request ì „ì†¡</td></tr>
+<tr><td>xml2js</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>XML íŒŒì‹±</td></tr>
+<tr><td>ping</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>Ping ì²´í¬</td></tr>
+<tr><td>i18n</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>ë‹¤êµ­ì–´ ì§€ì›</td></tr>
+<tr><td rowspan="4">Management Agent</td><td>libcurl</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>ë¯¸ë“¤ì›¨ì–´ ì—…ê·¸ë ˆì´ë“œ</td></tr>
+<tr><td>libpaho-mqtt3as</td><td>íŒ¨í‚¤ì§€ í¬í•¨</td><td>MQTT TLS í†µì‹ </td></tr>
+<tr><td>libsqlite3</td><td>shared</td><td>ë°ì´í„° ì €ì¥</td></tr>
 </tbody>
 </table>
 
-#### 6. ÆĞÅ°Áö ¼³Ä¡
-0. µ¥ºñ¾È ÆĞÅ°Áö ÆÄÀÏÀ» ´Ù¿î·Îµå ÇÑ´Ù.
+#### 6. íŒ¨í‚¤ì§€ ì„¤ì¹˜
+0. ë°ë¹„ì•ˆ íŒ¨í‚¤ì§€ íŒŒì¼ì„ ë‹¤ìš´ë¡œë“œ í•œë‹¤.
 
 	```
-	# wget https://github.com/SKT-ThingPlug2/raw/master/device-middleware/pkg/thingplug_dmw_ARM_2.0.1_1803061640.deb
+	# wget https://github.com/SKT-ThingPlug2/device-middleware/raw/master/pkg/thingplug_dmw_ARM_2.0.1_1803061640.deb
 	```
 
-1. µ¥ºñ¾È ÆĞÅ°Áö¸¦ ¼³Ä¡ÇÑ´Ù.(¹İµå½Ã root °èÁ¤À» ÀÌ¿ëÇØ¾ß ÇÑ´Ù.)	
+1. ë°ë¹„ì•ˆ íŒ¨í‚¤ì§€ë¥¼ ì„¤ì¹˜í•œë‹¤.(ë°˜ë“œì‹œ root ê³„ì •ì„ ì´ìš©í•´ì•¼ í•œë‹¤.)	
 
-	* ÀÏ¹İÀûÀ¸·Î dpkg ¸í·ÉÀ» ÅëÇÏ¿© ÆĞÅ°Áö¸¦ ¼³Ä¡ÇÑ´Ù.
+	* ì¼ë°˜ì ìœ¼ë¡œ dpkg ëª…ë ¹ì„ í†µí•˜ì—¬ íŒ¨í‚¤ì§€ë¥¼ ì„¤ì¹˜í•œë‹¤.
 	```
 	# dpkg -i thingplug_dmw_ARM_2.0.0_1712221030.deb
 	```
-	* Library dependencies µîÀÇ ¹®Á¦°¡ ¹ß»ıÇÒ °æ¿ì gdebi ¸¦ ÀÌ¿ëÇÏ¿© ÆĞÅ°Áö¸¦ ¼³Ä¡ÇÑ´Ù.
+	* Library dependencies ë“±ì˜ ë¬¸ì œê°€ ë°œìƒí•  ê²½ìš° gdebi ë¥¼ ì´ìš©í•˜ì—¬ íŒ¨í‚¤ì§€ë¥¼ ì„¤ì¹˜í•œë‹¤.
 	```
 	# apt-get install gdebi
 	# gdebi thingplug_dmw_ARM_2.0.0_1712221030.deb
 	```
 
-#### 7. ÆĞÅ°Áö ¼³Ä¡ È®ÀÎ
-* ºê¶ó¿ìÀú¿¡¼­ http://IP-address:8000 ¹øÀ¸·Î Á¢¼ÓÇÏ¿© ´ÙÀ½°ú °°Àº È­¸é(Gateway Portal)ÀÌ ³ª¿À¸é ¸ğµç ¼³Ä¡°¡ ¿Ï·áµÈ °ÍÀÌ´Ù.  
+#### 7. íŒ¨í‚¤ì§€ ì„¤ì¹˜ í™•ì¸
+* ë¸Œë¼ìš°ì €ì—ì„œ http://IP-address:8000 ë²ˆìœ¼ë¡œ ì ‘ì†í•˜ì—¬ ë‹¤ìŒê³¼ ê°™ì€ í™”ë©´(Gateway Portal)ì´ ë‚˜ì˜¤ë©´ ëª¨ë“  ì„¤ì¹˜ê°€ ì™„ë£Œëœ ê²ƒì´ë‹¤.  
 ![](images/gpIntro.png)
-> ·Î±×ÀÎ È­¸é¿¡¼­ ¾ÆÀÌµğ / ºñ¹Ğ¹øÈ£ : thingplugadmin / [mac-address(:Á¦¿Ü)]
+> ë¡œê·¸ì¸ í™”ë©´ì—ì„œ ì•„ì´ë”” / ë¹„ë°€ë²ˆí˜¸ : thingplugadmin / [mac-address(:ì œì™¸)]
 
-* ÃÖÃÊ ·Î±×ÀÎ½Ã¿¡ °èÁ¤ µî·ÏÀÌ ÇÊ¿äÇÏ´Ù.
+* ìµœì´ˆ ë¡œê·¸ì¸ì‹œì— ê³„ì • ë“±ë¡ì´ í•„ìš”í•˜ë‹¤.
 ![](images/v1_gp_changeAccount.png)
-> ¾È³»¿¡µû¶ó ¿øÇÏ´Â ¾ÆÀÌµğ¿Í ºñ¹Ğ¹øÈ£¸¦ Àû¿ëÇÑ´Ù.
+> ì•ˆë‚´ì—ë”°ë¼ ì›í•˜ëŠ” ì•„ì´ë””ì™€ ë¹„ë°€ë²ˆí˜¸ë¥¼ ì ìš©í•œë‹¤.
 
-* °èÁ¤À» µî·ÏÇÏ¸é ´ë½Ãº¸µå¸¦ È®ÀÎÇÒ ¼ö ÀÖ´Ù.
+* ê³„ì •ì„ ë“±ë¡í•˜ë©´ ëŒ€ì‹œë³´ë“œë¥¼ í™•ì¸í•  ìˆ˜ ìˆë‹¤.
 ![](images/gp_dashboard.png)
-> ¼¾¼­ À§Á¬Àº ¿¬°áÁ¶È¸ > ¼¾¼­ ¸Ş´º¿¡¼­ ¼¾¼­¿Í µå¶óÀÌ¹ö ¿¬°áÈÄ¿¡ °¡´ÉÇÏ´Ù.
+> ì„¼ì„œ ìœ„ì ¯ì€ ì—°ê²°ì¡°íšŒ > ì„¼ì„œ ë©”ë‰´ì—ì„œ ì„¼ì„œì™€ ë“œë¼ì´ë²„ ì—°ê²°í›„ì— ê°€ëŠ¥í•˜ë‹¤.
 
-* °ü¸®ÀÚ °èÁ¤ ºñ¹Ğ¹øÈ£ º¯°æÇÏ±â
+* ê´€ë¦¬ì ê³„ì • ë¹„ë°€ë²ˆí˜¸ ë³€ê²½í•˜ê¸°
 ![](images/gpPwd.png)
-> È¯°æ¼³Á¤ > °ü¸®ÀÚ¼³Á¤ ¸Ş´º¿¡¼­ °èÁ¤ ºñ¹Ğ¹øÈ£¸¦ º¯°æÇÒ ¼ö ÀÖ´Ù.
+> í™˜ê²½ì„¤ì • > ê´€ë¦¬ìì„¤ì • ë©”ë‰´ì—ì„œ ê³„ì • ë¹„ë°€ë²ˆí˜¸ë¥¼ ë³€ê²½í•  ìˆ˜ ìˆë‹¤.
 
-#### 8. »ç¿ë ¹æ¹ı
-0. Á¤Áö
+#### 8. ì‚¬ìš© ë°©ë²•
+0. ì •ì§€
 
 	```
 	# service middleware stop
 	```
 
-1. ½ÃÀÛ
+1. ì‹œì‘
 
 	```
 	# service middleware star
 	```
 
-2. Àç½ÃÀÛ
+2. ì¬ì‹œì‘
 
 	```
 	# service middleware restart
 	```
 
-3. ±¸µ¿ È®ÀÎ
+3. êµ¬ë™ í™•ì¸
 
 	```
 	# ps xl | grep middleware
 	```
 
-4. Á¦°Å
-	* Á¦°Å ÈÄ usr/local/middleware ³»ºÎÀÇ resource_v2.db ÆÄÀÏ, log Æú´õ°¡ ³²°ÜÁö¸ç, conf Æú´õÀÇ ÆÄÀÏµéÀº /tmp/middleware_backup_v2_00 Æú´õ·Î º¹»çµÇ¾î ³²°ÜÁø´Ù.
+4. ì œê±°
+	* ì œê±° í›„ usr/local/middleware ë‚´ë¶€ì˜ resource_v2.db íŒŒì¼, log í´ë”ê°€ ë‚¨ê²¨ì§€ë©°, conf í´ë”ì˜ íŒŒì¼ë“¤ì€ /tmp/middleware_backup_v2_00 í´ë”ë¡œ ë³µì‚¬ë˜ì–´ ë‚¨ê²¨ì§„ë‹¤.
 
 	```
 	# dpkg -r devicemiddleware
 	```
 
-#### 9. ±â±â µî·Ï
-* [ThingPlug Device ¹Ìµé¿ş¾î ±â±â µî·Ï °¡ÀÌµå](Simple_Guide.md)
+#### 9. ê¸°ê¸° ë“±ë¡
+* [ThingPlug Device ë¯¸ë“¤ì›¨ì–´ ê¸°ê¸° ë“±ë¡ ê°€ì´ë“œ](Simple_Guide.md)
 
-#### 10. ¼¾¼­
-* [¼¾¼­ ¿¬µ¿ °¡ÀÌµå](SMA_Guide.md)
-* [BeagleBone Black ÀåÄ¡ÀÇ ¼¾¼­ µå¶óÀÌ¹ö ¼³Ä¡ °¡ÀÌµå](BBB_Sensor_Installation.md)
+#### 10. ì„¼ì„œ
+* [ì„¼ì„œ ì—°ë™ ê°€ì´ë“œ](SMA_Guide.md)
+* [BeagleBone Black ì¥ì¹˜ì˜ ì„¼ì„œ ë“œë¼ì´ë²„ ì„¤ì¹˜ ê°€ì´ë“œ](BBB_Sensor_Installation.md)
 
