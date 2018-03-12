@@ -1,0 +1,1159 @@
+* 이 프로그램의 저작권은 SK텔레콤 주식회사(http://www.sktelecom.com)에 있습니다.
+* 이 프로그램은 저작권법과 프로그램 보호법에 의해 보호를 받고 있으며 관련 법규에서 명시적으로 허용한 제한적인 범위 이외에 본 소프트웨어 제품을 개작하거나 리버스 엔지니어링, 디컴파일, 디스어셈블 할 수 없습니다.
+
+THE FOLLOWING SETS FORTH ATTRIBUTION NOTICES FOR THIRD PARTY SOFTWARE THAT MAY BE CONTAINED IN PORTIONS OF THIS PRODUCT.
+
+
+caseless
+https://www.npmjs.org/package/caseless
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+ejs-with-exts
+https://www.npmjs.org/package/ejs-with-exts
+copyright 2112 mde@fleegix.org
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+forever-agent
+http://github.com/mikeal/forever-agent/
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+log4js-node
+http://github.com/csausdev/log4js-node/
+Copyright 2015 Gareth Jones (with contributions from many other people)
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+mbedtls
+http://github.com/ARMmbed/mbedtls/
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+oauth-sign
+http://github.com/mikeal/oauth-sign/
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+request
+http://github.com/request/request/
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+tunnel-agent
+http://github.com/mikeal/tunnel-agent/
+Copyright Unknown
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+weak-map
+https://www.npmjs.org/package/weak-map
+Copyright (c) Mark S. Miller
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License.
+
+   You may obtain a copy of the License at
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+
+
+readable-stream
+http://github.com/isaacs/readable-stream/
+Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+BSD 2-clause "Simplified" License
+
+
+boom
+http://github.com/spumko/boom/
+Copyright (c) 2012-2016, Project contributors. 
+Copyright (c) 2012-2014, Walmart. 
+All rights reserved. 
+BSD 3-clause "New" or "Revised" License
+
+
+cryptiles
+http://github.com/hueniverse/cryptiles/
+Copyright (c) 2014-2016, Eran Hammer and Project contributors 
+All rights reserved. 
+BSD 3-clause "New" or "Revised" License
+
+
+excel-export
+https://www.npmjs.org/package/excel-export
+Copyright Unknown
+BSD 3-clause "New" or "Revised" License
+
+
+hawk
+http://github.com/hueniverse/hawk/
+Copyright (c) 2012-2016, Eran Hammer and Project contributors 
+All rights reserved. 
+BSD 3-clause "New" or "Revised" License
+
+
+hoek
+http://github.com/spumko/hoek/
+Copyright (c) 2011-2016, Project contributors 
+Copyright (c) 2011-2014, Walmart 
+Copyright (c) 2011, Yahoo Inc. 
+All rights reserved. 
+BSD 3-clause "New" or "Revised" License
+
+
+jsbn
+https://www.npmjs.org/package/jsbn
+Copyright (c) 2003-2005  Tom Wu 
+All Rights Reserved 
+BSD 3-clause "New" or "Revised" License
+
+
+json-schema
+http://github.com/kriszyp/json-schema/
+BSD 3-clause "New" or "Revised" License
+
+
+liubo
+https://www.npmjs.org/package/liubo
+Copyright (c) 2014 Nathan LaFreniere and other contributors. 
+All rights reserved. 
+BSD 3-clause "New" or "Revised" License
+
+
+node-sprintf
+http://github.com/maritz/node-sprintf/
+Copyright (c) 2007-2013, Alexandru Marasteanu All rights reserved.
+BSD 3-clause "New" or "Revised" License
+
+
+sntp
+http://github.com/hueniverse/sntp/
+Copyright (c) 2012-2016, Eran Hammer and Project contributors
+All rights reserved.
+BSD 3-clause "New" or "Revised" License
+
+
+montagejs' collections
+https://www.npmjs.org/package/collections
+Copyright 2012-2014 Motorola Mobility LLC, Montage Studio Inc, and contributors. All rights reserved.
+BSD 3-clause "New" or "Revised" License
+
+
+
+base64-url
+http://github.com/joaquimserafim/base64-url/
+Copyright (c) 2014, Joaquim Jose F. Serafim
+for more copyright information, please visit https://github.com/joaquimserafim/base64-url/blob/master/LICENSE
+ISC License
+
+
+inherits
+http://github.com/isaacs/inherits/
+Copyright (c) Isaac Z. Schlueter
+ISC License
+
+
+iscroll5
+https://www.npmjs.org/package/iscroll5
+ISC License
+
+
+json-stringify-safe
+https://www.npmjs.org/package/json-stringify-safe
+Copyright (c) Isaac Z. Schlueter and Contributors
+ISC License
+
+
+node-semver
+http://github.com/npm/node-semver/
+Copyright (c) Isaac Z. Schlueter and Contributors
+ISC License
+
+
+sax-js
+http://github.com/isaacs/sax-js/
+Copyright (c) Isaac Z. Schlueter and Contributors
+for more copyright information, please visit https://github.com/isaacs/sax-js/blob/master/LICENSE
+ISC License
+
+
+har-validator
+https://www.npmjs.org/package/har-validator
+Copyright (c) 2015, Ahmad Nassri <ahmad@ahmadnassri.com>
+for more copyright information, please visit https://github.com/ahmadnassri/har-validator/blob/master/LICENSE
+ISC License
+
+
+
+bpopup
+http://github.com/dinbror/bpopup/
+bPopup is licensed under the DWIWYWBPVMS license. (Do With It What You Want But Please Visit My Sponsor).
+
+
+tweetnacl-js
+https://www.npmjs.org/package/tweetnacl
+https://github.com/dchest/tweetnacl-js/blob/master/COPYING.txt
+Creative Commons Zero v1.0 Universal
+
+
+curl
+http://curl.haxx.se/
+Copyright (c) 1998, 1999 Kungliga Tekniska Hogskolan
+curl License
+
+
+SQLite
+http://www.hwaci.com/sw/sqlite/index.html
+Public Domain
+
+
+generate-function
+http://github.com/mafintosh/generate-function/
+Copyright (c) 2014 Mathias Buus
+License Unspecified
+
+
+jQuery.dotdotdot
+https://www.npmjs.org/package/jquery.dotdotdot
+Copyright (c) 2015 Fred Heusschen
+License Unspecified
+
+
+node-ping
+http://github.com/danielzzz/node-ping/
+Copyright (c) 2016 Daniel Zelisko
+License Unspecified
+
+
+node-uuid
+http://github.com/broofa/node-uuid/
+Copyright (c) 2010-2016 Robert Kieffer and other contributors
+License Unspecified
+
+
+path-to-regexp
+http://github.com/component/path-to-regexp/
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+License Unspecified
+
+
+tweetnacl-js
+http://github.com/dchest/tweetnacl-js/
+License Unspecified
+
+
+
+accepts
+https://www.npmjs.org/package/accepts
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com> 
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com> 
+MIT License
+
+
+array-flatten
+https://www.npmjs.org/package/array-flatten
+Copyright (c) 2014 Blake Embrey (hello@blakeembrey.com)
+MIT License
+
+
+async
+http://github.com/caolan/async/
+Copyright (c) 2010-2016 Caolan McMahon
+MIT License
+
+
+aws-sign
+http://github.com/mikeal/aws-sign/
+Copyright Unknown
+MIT License
+
+
+bl
+https://www.npmjs.org/package/bl
+Copyright (c) 2013-2014 bl contributors
+Rod Vagg
+Matteo Collina
+Jarett Cruger
+MIT License
+
+
+body-parser
+https://www.npmjs.org/package/body-parser
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com> 
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com> 
+MIT License
+
+
+bytes.js
+https://www.npmjs.org/package/bytes
+Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca> 
+Copyright (c) 2015 Jed Watson <jed.watson@me.com> 
+MIT License
+
+
+commander.js
+http://github.com/visionmedia/commander.js/
+Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+MIT License
+
+
+connect-multiparty
+https://www.npmjs.org/package/connect-multiparty
+Copyright(c) 2010 Sencha Inc. 
+Copyright(c) 2011 TJ Holowaychuk 
+Copyright(c) 2013 Andrew Kelley 
+MIT License
+
+
+content-disposition
+https://www.npmjs.org/package/content-disposition
+Copyright (c) 2014 Douglas Christopher Wilson
+MIT License
+
+
+content-type
+http://github.com/jshttp/content-type/
+Copyright (c) 2015 Douglas Christopher Wilson
+MIT License
+
+
+cookie-signature
+https://www.npmjs.org/package/cookie-signature
+Copyright (c) 2012 LearnBoost <tj@learnboost.com>
+MIT License
+
+
+cordova-plugin-mqtt
+https://www.npmjs.org/package/cordova-plugin-mqtt
+Copyright (c) 2016 Arcoiris Labs
+MIT License
+
+
+core-util-is
+https://www.npmjs.org/package/core-util-is
+Copyright Node.js contributors. All rights reserved.
+MIT License
+
+
+depd
+https://www.npmjs.org/package/depd
+Copyright (c) 2014-2015 Douglas Christopher Wilson
+MIT License
+
+
+depd
+https://www.npmjs.org/package/depd
+Copyright Unknown
+MIT License
+
+
+ecc-jsbn
+https://www.npmjs.org/package/ecc-jsbn
+Copyright (c) 2014 Jeremie Miller
+MIT License
+
+
+ee-first
+http://github.com/jonathanong/ee-first/
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+MIT License
+
+
+ejs
+http://github.com/visionmedia/ejs/
+Copyright (c) 2009-2010 TJ Holowaychuk <tj@vision-media.ca>
+MIT License
+
+
+escape-html
+https://www.npmjs.org/package/escape-html
+Copyright (c) 2012-2013 TJ Holowaychuk 
+Copyright (c) 2015 Andreas Lubbe 
+Copyright (c) 2015 Tiancheng "Timothy" Gu 
+MIT License
+
+
+escape-string-regexp
+http://github.com/sindresorhus/escape-string-regexp/
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+MIT License
+
+
+etag
+https://www.npmjs.org/package/etag
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+MIT License
+
+
+express
+http://github.com/visionmedia/express/
+Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca> 
+Copyright (c) 2013-2014 Roman Shtylman <shtylman+expressjs@gmail.com> 
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com> 
+MIT License
+
+
+express-session
+https://www.npmjs.org/package/express-session
+Copyright (c) 2010 Sencha Inc. 
+Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca> 
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com> 
+MIT License
+
+
+extsprintf
+https://www.npmjs.org/package/extsprintf
+Copyright (c) 2012, Joyent, Inc. All rights reserved.
+MIT License
+
+
+fd-slicer
+https://www.npmjs.org/package/fd-slicer
+Copyright (c) 2014 Andrew Kelley
+MIT License
+
+
+finalhandler
+https://www.npmjs.org/package/finalhandler
+Copyright (c) 2014-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+form-data
+http://github.com/form-data/form-data/
+Copyright (c) 2012 Felix Geisendorfer (felix@debuggable.com) and contributors
+MIT License
+
+
+forwarded
+http://github.com/jshttp/forwarded/
+Copyright (c) 2014 Douglas Christopher Wilson
+MIT License
+
+
+generate-object-property
+http://github.com/mafintosh/generate-object-property/
+Copyright (c) 2014 Mathias Buus
+MIT License
+
+
+graceful-readlink
+https://www.npmjs.org/package/graceful-readlink
+Copyright (c) 2015 Zhiye Li
+MIT License
+
+
+has-ansi
+http://github.com/sindresorhus/has-ansi/
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+MIT License
+
+
+hexy.js
+http://github.com/a2800276/hexy.js/
+Copyright 2010, 2011 Tim Becker  
+All rights reserved. 
+MIT License
+
+
+http-errors
+https://www.npmjs.org/package/http-errors
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com 
+Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com 
+MIT License
+
+
+i18n-node
+http://github.com/mashpie/i18n-node/
+Copyright (c) 2011-2016 Marcus Spiegel <marcus.spiegel@gmail.com>
+MIT License
+
+
+iconv-lite
+http://github.com/ashtuchkin/iconv-lite/
+Copyright (c) 2011 Alexander Shtuchkin
+MIT License
+
+
+ipaddr.js
+http://github.com/whitequark/ipaddr.js/
+Copyright (C) 2011 Peter Zotov <whitequark@whitequark.org>
+MIT License
+
+
+is-my-json-valid
+https://www.npmjs.org/package/is-my-json-valid
+Copyright (c) 2014 Mathias Buus
+MIT License
+
+
+is-property
+https://www.npmjs.org/package/is-property
+Copyright (c) 2013 Mikola Lysenko
+MIT License
+
+
+is-typedarray
+https://www.npmjs.org/package/is-typedarray
+Copyright Unknown
+MIT License
+
+
+isarray
+https://www.npmjs.org/package/isarray
+Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
+MIT License
+
+
+isstream
+https://www.npmjs.org/package/isstream
+Copyright (c) 2015 Rod Vagg @rvagg
+MIT License
+
+
+jodid25519
+https://www.npmjs.org/package/jodid25519
+Copyright (c) 2012 Ron Garret
+Copyright (c) 2007, 2013, 2014 Michele Bini michele.bini@gmail.com
+Copyright (c) 2014 Mega Limited
+MIT License
+
+
+jquery
+http://github.com/jquery/jquery/
+Copyright jQuery Foundation and other contributors, https://jquery.org/ 
+This software consists of voluntary contributions made by many individuals. 
+For exact contribution history, see the revision history available at https://github.com/jquery/jquery 
+https://github.com/jquery/jquery/blob/master/LICENSE.txt
+MIT License
+
+
+jQuery UI - jquery/jquery-ui on GitHub
+http://github.com/jquery/jquery-ui/
+Copyright jQuery Foundation and other contributors, https://jquery.org/ 
+This software consists of voluntary contributions made by many individuals. 
+For exact contribution history, see the revision history available at https://github.com/jquery/jquery 
+https://github.com/jquery/jquery-ui/blob/master/LICENSE.txt
+MIT License
+
+
+js-cookie
+http://github.com/js-cookie/js-cookie/
+Copyright 2014 Klaus Hartl
+MIT License
+
+
+JSON-C
+http://oss.metaparadigm.com/json-c/
+Michael Clark <michael@metaparadigm.com>
+Jehiah Czebotar <jehiah@gmail.com>
+Eric Haszlakiewicz <hawicz+json-c@gmail.com>
+C. Watford (christopher.watford@gmail.com)
+MIT License
+
+
+jszip
+https://www.npmjs.org/package/jszip
+Copyright (c) 2009-2016 Stuart Knightley, David Duponchel, Franz Buchinger, Antonio Afonso
+MIT License
+
+
+lodash
+https://lodash.com/
+https://raw.githubusercontent.com/lodash/lodash/4.17.2/LICENSE
+MIT License
+
+
+masonry
+http://github.com/desandro/masonry/
+Copyright (c) 2016 David DeSandro
+MIT License
+
+
+media-typer
+https://www.npmjs.org/package/media-typer
+Copyright (c) 2014-2015 Douglas Christopher Wilson
+MIT License
+
+
+merge-descriptors
+https://www.npmjs.org/package/merge-descriptors
+Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+mime-db
+http://github.com/jshttp/mime-db/
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+MIT License
+
+
+mime-types
+https://www.npmjs.org/package/mime-types
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+ms.js
+http://github.com/guille/ms.js/
+Copyright (c) 2016 Zeit, Inc.
+MIT License
+
+
+mustache.js
+http://github.com/janl/mustache.js/
+Copyright (c) 2009 Chris Wanstrath (Ruby)
+Copyright (c) 2010-2014 Jan Lehnardt (JavaScript)
+Copyright (c) 2010-2015 The mustache.js community
+MIT License
+
+
+node negotiator
+https://www.npmjs.org/package/negotiator
+Copyright (c) 2012-2014 Federico Romero
+Copyright (c) 2012-2014 Isaac Z. Schlueter
+Copyright (c) 2014-2015 Douglas Christopher Wilson
+MIT License
+
+
+node-asn1
+http://github.com/mcavage/node-asn1/
+Copyright (c) 2011 Mark Cavage, All rights reserved.
+MIT License
+
+
+node-assert-plus
+https://www.npmjs.org/package/assert-plus
+Copyright (c) 2012 Mark Cavage
+MIT License
+
+
+node-combined-stream
+http://github.com/felixge/node-combined-stream/
+Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+MIT License
+
+
+node-cookie
+https://www.npmjs.org/package/cookie
+Copyright (c) 2012-2014 Roman Shtylman <shtylman@gmail.com>
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+node-cookie
+http://github.com/shtylman/node-cookie/
+MIT License
+
+
+node-dashdash
+http://github.com/trentm/node-dashdash/
+Copyright (c) 2013 Trent Mick. All rights reserved.
+Copyright (c) 2013 Joyent Inc. All rights reserved.
+MIT License
+
+
+node-delayed-stream
+http://github.com/felixge/node-delayed-stream/
+Copyright (c) 2011 Debuggable Limited <felix@debuggable.com>
+MIT License
+
+
+node-extend
+https://www.npmjs.org/package/extend
+Copyright (c) 2014 Stefan Thomas
+MIT License
+
+
+node-fresh
+http://github.com/visionmedia/node-fresh/
+Copyright (c) 2012 TJ Holowaychuk <tj@vision-media.ca>
+MIT License
+
+
+node-http-signature
+http://github.com/joyent/node-http-signature/
+Copyright Joyent, Inc. All rights reserved.
+MIT License
+
+
+node-jsonpointer
+https://www.npmjs.org/package/jsonpointer
+Copyright (c) 2011-2015 Jan Lehnardt jan@apache.org & Marc Bachmann https://github.com/marcbachmann 
+MIT License
+
+
+node-jsprim
+http://github.com/davepacheco/node-jsprim/
+Copyright (c) 2012, Joyent, Inc. All rights reserved.
+MIT License
+
+
+node-methods
+http://github.com/visionmedia/node-methods/
+Copyright (c) 2013-2014 TJ Holowaychuk <tj@vision-media.ca>
+Copyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+node-mime
+http://github.com/broofa/node-mime/
+Copyright (c) 2010 Benjamin Thomas, Robert Kieffer
+MIT License
+
+
+node-multiparty
+https://www.npmjs.org/package/multiparty
+Copyright (c) 2014 Andrew Kelley
+Copyright (c) 2014 Douglas Christopher Wilson
+Copyright (c) 2013 Felix Geisendorfer
+MIT License
+
+
+node-mysql
+http://github.com/felixge/node-mysql/
+Copyright (c) 2012 Felix Geisendorfer (felix@debuggable.com) and contributors
+MIT License
+
+
+node-pend
+http://github.com/andrewrk/node-pend/
+Copyright (c) 2014 Andrew Kelley
+MIT License
+
+
+node-querystring
+http://github.com/aheckmann/node-querystring/
+Copyright (c) 2010 TJ Holowaychuk <tj@vision-media.ca>
+MIT License
+
+
+node-verror
+http://github.com/davepacheco/node-verror/
+Copyright (c) 2016, Joyent, Inc. All rights reserved.
+MIT License
+
+
+node-xml2js
+http://github.com/maqr/node-xml2js/
+Copyright Unknown
+MIT License
+
+
+node-zip
+http://github.com/daraosn/node-zip/
+Copyright (c) David Duponchel @dduponchel
+MIT License
+
+
+Node.js
+http://github.com/joyent/node/
+Copyright Node.js contributors. All rights reserved.
+MIT License
+
+
+on-finished
+https://www.npmjs.org/package/on-finished
+Copyright (c) 2013 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+on-headers
+https://www.npmjs.org/package/on-headers
+Copyright (c) 2014 Douglas Christopher Wilson
+MIT License
+
+
+pako
+http://github.com/nodeca/pako/
+Copyright (C) 2014-2016 by Vitaly Puzrin
+MIT License
+
+
+parseurl
+https://www.npmjs.org/package/parseurl
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2014 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+pinkie
+http://github.com/floatdrop/pinkie/
+Copyright (c) Vsevolod Strukchinsky <floatdrop@gmail.com> (github.com/floatdrop)
+MIT License
+
+
+pinkie-promise
+https://www.npmjs.org/package/pinkie-promise
+Copyright (c) Vsevolod Strukchinsky <floatdrop@gmail.com> (github.com/floatdrop)
+MIT License
+
+
+process-nextick-args
+https://www.npmjs.org/package/process-nextick-args
+Copyright (c) 2015 Calvin Metcalf
+MIT License
+
+
+proxy-addr
+https://www.npmjs.org/package/proxy-addr
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+MIT License
+
+
+PxLoader
+http://github.com/thinkpixellab/PxLoader/
+Copyright (c) 2012 Pixel Lab
+MIT License
+
+
+Q in javascript
+http://github.com/kriskowal/q/
+Copyright 2009-2016 Kristopher Michael Kowal. All rights reserved.
+MIT License
+
+
+range-parser
+http://github.com/jshttp/range-parser/
+Copyright (c) 2012-2014 TJ Holowaychuk <tj@vision-media.ca>
+Copyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+raw-body
+https://www.npmjs.org/package/raw-body
+Copyright (c) 2013-2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+send
+http://github.com/visionmedia/send/
+Copyright (c) 2012 TJ Holowaychuk
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+MIT License
+
+
+serve-static
+https://www.npmjs.org/package/serve-static
+Copyright (c) 2010 Sencha Inc.
+Copyright (c) 2011 LearnBoost
+Copyright (c) 2011 TJ Holowaychuk
+Copyright (c) 2014-2016 Douglas Christopher Wilson
+MIT License
+
+
+sindresorhus's chalk
+https://www.npmjs.org/package/chalk
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+MIT License
+
+
+slush-globeapp
+https://www.npmjs.org/package/slush-globeapp
+Copyright (c) 2015 The Boston Globe
+MIT License
+
+
+sshpk
+https://www.npmjs.org/package/sshpk
+Copyright Joyent, Inc. All rights reserved.
+MIT License
+
+
+statuses
+https://www.npmjs.org/package/statuses
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+Copyright (c) 2016 Douglas Christopher Wilson doug@somethingdoug.com
+MIT License
+
+
+stream-utils' destroy
+http://github.com/stream-utils/destroy/
+Copyright (c) 2014 Jonathan Ong me@jongleberry.com
+MIT License
+
+
+string_decoder
+https://www.npmjs.org/package/string_decoder
+Copyright Joyent, Inc. and other Node contributors.
+MIT License
+
+
+StringStream
+http://github.com/mhart/StringStream/
+Copyright (c) 2012 Michael Hart (michael.hart.au@gmail.com)
+MIT License
+
+
+strip-ansi
+https://www.npmjs.org/package/strip-ansi
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+MIT License
+
+
+supports-color
+https://www.npmjs.org/package/supports-color
+Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
+MIT License
+
+
+tough-cookie
+https://www.npmjs.org/package/tough-cookie
+Copyright (c) 2015, Salesforce.com, Inc.
+All rights reserved.
+MIT License
+
+
+type-is
+https://www.npmjs.org/package/type-is
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2014-2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+uid-safe
+https://www.npmjs.org/package/uid-safe
+Copyright (c) 2014 Jonathan Ong <me@jongleberry.com>
+Copyright (c) 2015-2016 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+unpipe
+https://www.npmjs.org/package/unpipe
+Copyright (c) 2015 Douglas Christopher Wilson <doug@somethingdoug.com>
+MIT License
+
+
+util-deprecate
+https://www.npmjs.org/package/util-deprecate
+Copyright (c) 2014 Nathan Rajlich nathan@tootallnate.net
+MIT License
+
+
+utils-merge
+https://www.npmjs.org/package/utils-merge
+Copyright (c) 2013 Jared Hanson
+MIT License
+
+
+vary
+https://www.npmjs.org/package/vary
+Copyright (c) 2014-2015 Douglas Christopher Wilson
+MIT License
+
+
+xmlbuilder-js
+https://www.npmjs.org/package/xmlbuilder
+Copyright (c) 2013 Ozgur Ozcitak
+MIT License
+
+
+xtend
+http://github.com/Raynos/xtend/
+Copyright (c) 2012-2014 Raynos.
+MIT License
+
+
+zookeeper
+http://rubygems.org/gems/zookeeper
+Copyright (C) 2011 by Hewlett Packard Development Company, L.P.
+MIT License
+
+
+jsreport pdf reports embedded in to .NET
+http://www.nuget.org/packages/jsreport.Embedded
+Copyright 2013-2016 Jan Blaha
+MIT License
+
+
+node-crc
+http://github.com/alexgorbatchev/node-crc/
+Copyright 2014 Alex Gorbatchev
+MIT License
+
+cJSON-Dave Gamble
+http://cjson.sourceforge.net/
+Copyright (c) 2009 Dave Gamble
+The MIT License (MIT)
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFT-WARE.
+
+
+MQTT
+Copyright (c) 2014 IBM Corp.
+This program and the accompanying materials are made available under the terms of the Eclipse Public Li-cense v1.0 and Eclipse Distribution License v1.0 which accompany this distribution.
+The Eclipse Public License is available at http://www.eclipse.org/legal/epl-v10.html and the Eclipse Distribution License is available at http://www.eclipse.org/org/documents/edl-v10.php. 
+Contributors: Ian Craggs - initial API and implementation and/or initial documentation
+
+Eclipse Public License v1.0
+
+THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE PUBLIC LICENSE ("AGREE-MENT"). ANY USE, REPRODUCTION OR DISTRIBUTION OF THE PROGRAM CONSTITUTES RECIPIENT'S AC-CEPTANCE OF THIS AGREEMENT.
+
+1. DEFINITIONS
+
+"Contribution" means:
+
+a) in the case of the initial Contributor, the initial code and documentation distributed under this Agreement, and
+b) in the case of each subsequent Contributor:
+i) changes to the Program, and
+ii) additions to the Program;
+where such changes and/or additions to the Program originate from and are distributed by that particular Contributor. A Contribution 'originates' from a Contributor if it was added to the Program by such Contribu-tor itself or anyone acting on such Contributor's behalf. Contributions do not include additions to the Pro-gram which: (i) are separate modules of software distributed in conjunction with the Program under their own license agreement, and (ii) are not derivative works of the Program.
+"Contributor" means any person or entity that distributes the Program.
+
+"Licensed Patents" mean patent claims licensable by a Contributor which are necessarily infringed by the use or sale of its Contribution alone or when combined with the Program.
+
+"Program" means the Contributions distributed in accordance with this Agreement.
+
+"Recipient" means anyone who receives the Program under this Agreement, including all Contributors.
+
+2. GRANT OF RIGHTS
+
+a) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, world-wide, royalty-free copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, distribute and sublicense the Contribution of such Contributor, if any, and such derivative works, in source code and object code form.
+b) Subject to the terms of this Agreement, each Contributor hereby grants Recipient a non-exclusive, world-wide, royalty-free patent license under Licensed Patents to make, use, sell, offer to sell, import and otherwise transfer the Contribution of such Contributor, if any, in source code and object code form. This patent license shall apply to the combination of the Contribution and the Program if, at the time the Contribution is added by the Contributor, such addition of the Contribution causes such combination to be covered by the Licensed Patents. The patent license shall not apply to any other combinations which include the Contribution. No hardware per se is licensed hereunder.
+c) Recipient understands that although each Contributor grants the licenses to its Contributions set forth herein, no assurances are provided by any Contributor that the Program does not infringe the patent or oth-er intellectual property rights of any other entity. Each Contributor disclaims any liability to Recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise. As a condition to exercising the rights and licenses granted hereunder, each Recipient hereby assumes sole re-sponsibility to secure any other intellectual property rights needed, if any. For example, if a third party patent license is required to allow Recipient to distribute the Program, it is Recipient's responsibility to acquire that license before distributing the Program.
+d) Each Contributor represents that to its knowledge it has sufficient copyright rights in its Contribution, if any, to grant the copyright license set forth in this Agreement.
+3. REQUIREMENTS
+
+A Contributor may choose to distribute the Program in object code form under its own license agreement, provided that:
+
+a) it complies with the terms and conditions of this Agreement; and
+b) its license agreement:
+i) effectively disclaims on behalf of all Contributors all warranties and conditions, express and implied, includ-ing warranties or conditions of title and non-infringement, and implied warranties or conditions of merchant-ability and fitness for a particular purpose;
+ii) effectively excludes on behalf of all Contributors all liability for damages, including direct, indirect, special, incidental and consequential damages, such as lost profits;
+iii) states that any provisions which differ from this Agreement are offered by that Contributor alone and not by any other party; and
+iv) states that source code for the Program is available from such Contributor, and informs licensees how to obtain it in a reasonable manner on or through a medium customarily used for software exchange.
+When the Program is made available in source code form:
+
+a) it must be made available under this Agreement; and
+b) a copy of this Agreement must be included with each copy of the Program.
+Contributors may not remove or alter any copyright notices contained within the Program.
+
+Each Contributor must identify itself as the originator of its Contribution, if any, in a manner that reasonably allows subsequent Recipients to identify the originator of the Contribution.
+
+4. COMMERCIAL DISTRIBUTION
+
+Commercial distributors of software may accept certain responsibilities with respect to end users, business partners and the like. While this license is intended to facilitate the commercial use of the Program, the Con-tributor who includes the Program in a commercial product offering should do so in a manner which does not create potential liability for other Contributors. Therefore, if a Contributor includes the Program in a commercial product offering, such Contributor ("Commercial Contributor") hereby agrees to defend and in-demnify every other Contributor ("Indemnified Contributor") against any losses, damages and costs (collective-ly "Losses") arising from claims, lawsuits and other legal actions brought by a third party against the Indemni-fied Contributor to the extent caused by the acts or omissions of such Commercial Contributor in connection with its distribution of the Program in a commercial product offering. The obligations in this section do not apply to any claims or Losses relating to any actual or alleged intellectual property infringement. In order to qualify, an Indemnified Contributor must: a) promptly notify the Commercial Contributor in writing of such claim, and b) allow the Commercial Contributor to control, and cooperate with the Commercial Contributor in, the defense and any related settlement negotiations. The Indemnified Contributor may participate in any such claim at its own expense.
+
+For example, a Contributor might include the Program in a commercial product offering, Product X. That Con-tributor is then a Commercial Contributor. If that Commercial Contributor then makes performance claims, or offers warranties related to Product X, those performance claims and warranties are such Commercial Con-tributor's responsibility alone. Under this section, the Commercial Contributor would have to defend claims against the other Contributors related to those performance claims and warranties, and if a court requires any other Contributor to pay any damages as a result, the Commercial Contributor must pay those damages.
+
+5. NO WARRANTY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, THE PROGRAM IS PROVIDED ON AN "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OR CONDITIONS OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY OR FIT-NESS FOR A PARTICULAR PURPOSE. Each Recipient is solely responsible for determining the appropriateness of using and distributing the Program and assumes all risks associated with its exercise of rights under this Agreement , including but not limited to the risks and costs of program errors, compliance with applicable laws, damage to or loss of data, programs or equipment, and unavailability or interruption of operations.
+
+6. DISCLAIMER OF LIABILITY
+
+EXCEPT AS EXPRESSLY SET FORTH IN THIS AGREEMENT, NEITHER RECIPIENT NOR ANY CONTRIBUTORS SHALL HAVE ANY LIABILITY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING WITHOUT LIMITATION LOST PROFITS), HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OR DISTRIBUTION OF THE PROGRAM OR THE EXERCISE OF ANY RIGHTS GRANTED HEREUNDER, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7. GENERAL
+
+If any provision of this Agreement is invalid or unenforceable under applicable law, it shall not affect the va-lidity or enforceability of the remainder of the terms of this Agreement, and without further action by the parties hereto, such provision shall be reformed to the minimum extent necessary to make such provision val-id and enforceable.
+
+If Recipient institutes patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Program itself (excluding combinations of the Program with other software or hardware) in-fringes such Recipient's patent(s), then such Recipient's rights granted under Section 2(b) shall terminate as of the date such litigation is filed.
+
+All Recipient's rights under this Agreement shall terminate if it fails to comply with any of the material terms or conditions of this Agreement and does not cure such failure in a reasonable period of time after becoming aware of such noncompliance. If all Recipient's rights under this Agreement terminate, Recipient agrees to cease use and distribution of the Program as soon as reasonably practicable. However, Recipient's obligations under this Agreement and any licenses granted by Recipient relating to the Program shall continue and sur-vive.
+
+Everyone is permitted to copy and distribute copies of this Agreement, but in order to avoid inconsistency the Agreement is copyrighted and may only be modified in the following manner. The Agreement Steward reserves the right to publish new versions (including revisions) of this Agreement from time to time. No one other than the Agreement Steward has the right to modify this Agreement. The Eclipse Foundation is the initial Agreement Steward. The Eclipse Foundation may assign the responsibility to serve as the Agreement Steward to a suitable separate entity. Each new version of the Agreement will be given a distinguishing ver-sion number. The Program (including Contributions) may always be distributed subject to the version of the Agreement under which it was received. In addition, after a new version of the Agreement is published, Con-tributor may elect to distribute the Program (including its Contributions) under the new version. Except as expressly stated in Sections 2(a) and 2(b) above, Recipient receives no rights or licenses to the intellectual property of any Contributor under this Agreement, whether expressly, by implication, estoppel or otherwise. All rights in the Program not expressly granted under this Agreement are reserved.
+
+This Agreement is governed by the laws of the State of New York and the intellectual property laws of the United States of America. No party to this Agreement will bring a legal action under this Agreement more than one year after the cause of action arose. Each party waives its rights to a jury trial in any resulting litiga-tion.
+
+
+
+The MIT License(MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+The ISC License
+
+Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+
+
+BSD 2-clause "Simplified" License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+BSD 3-clause "New" or "Revised" License
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+ - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+ - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+ - Neither the name of this software nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+
+cURL (libcurl)
+
+Permission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of a copyright holder shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization of the copyright holder.
