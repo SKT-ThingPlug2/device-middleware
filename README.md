@@ -66,12 +66,12 @@ ThingPlug 와의 Protocol 은 SimpleAPI를 지원한다.
 
 	* 일반적으로 dpkg 명령을 통하여 패키지를 설치한다.
 	```
-	# dpkg -i thingplug_dmw_ARM_2.0.0_1712221030.deb
+	# dpkg -i thingplug_dmw_ARM_2.0.1_1803061640.deb
 	```
 	* Library dependencies 등의 문제가 발생할 경우 gdebi 를 이용하여 패키지를 설치한다.
 	```
 	# apt-get install gdebi
-	# gdebi thingplug_dmw_ARM_2.0.0_1712221030.deb
+	# gdebi thingplug_dmw_ARM_2.0.1_1803061640.deb
 	```
 
 #### 7. 패키지 설치 확인
